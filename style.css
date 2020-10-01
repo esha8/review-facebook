@@ -1,6 +1,5 @@
 body {
   font-size: 14px;
-  /* font-family: "Courier New", Courier, monospace; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f0f2f5;
 }
@@ -8,12 +7,12 @@ body {
 .logo {
   text-align: center;
 }
-/* 
-.header {
-  display: grid;
-  grid-template-columns: 10px 1fr;
+
+h1 {
+  border-bottom: 2px solid rgb(125, 125, 255);
+  display: inline;
 }
 
-.header img {
-  justify-items: end;
-} */
+h2 {
+  font-size: 1.3em;
+}
