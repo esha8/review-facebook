@@ -1,5 +1,5 @@
 body {
-  font-size: 18px;
+  font-size: 14px;
   /* font-family: "Courier New", Courier, monospace; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f0f2f5;
@@ -7,5 +7,13 @@ body {
 
 .logo {
   text-align: center;
-  position: fixed;
 }
+/* 
+.header {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+}
+
+.header img {
+  justify-items: end;
+} */
