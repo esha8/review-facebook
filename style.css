@@ -1,0 +1,11 @@
+body {
+  font-size: 18px;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.logo {
+  text-align: center;
+  position: fixed;
+}
