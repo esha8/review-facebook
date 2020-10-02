@@ -13,6 +13,60 @@ h1 {
   display: inline;
 }
 
-h2 {
-  font-size: 1.3em;
+.hero,
+.advantage {
+  margin: 2em 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-areas:
+    "history img"
+    "aplikasi aplikasi";
+}
+
+.hero .history {
+  grid-area: history;
+}
+
+.hero img {
+  grid-area: img;
+}
+
+.hero .aplikasi {
+  grid-area: aplikasi;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.data .data-details {
+  line-height: 2em;
+  align-self: end;
+  padding-bottom: 3em;
+}
+
+.leader-info {
+  display: flex;
+  justify-content: center;
+  padding: 2.5em;
+}
+
+.leader img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #333;
+}
+
+ul li a,
+.leader a {
+  display: inline-block;
+  margin: 10px;
+  transition: 0.1s;
+}
+
+ul li a:hover,
+.leader a:hover {
+  transform: scale(1.1);
 }
